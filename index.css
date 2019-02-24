@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #27a568;
+}
+
+.header-bar {
+    display: flex;
+}
+
+.header-buttons {
+    margin-left: 4px;
+    margin-top: 1px;
+}
+
+.header-label {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+}
+
+.row-container {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.FirstCards {
+    margin-top: 20px;
+    padding-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row:hover {
+    background: #89f4a4;
+}
+
+.rowLabel {
+    font-size: 32px;
+    padding-top: 48px;
+    padding-right: 5px;
+    font-family: Georgia;
+    font-style: italic;
+    width: 42px;
+}
+
+.card {
+    background: white;
+    height: 140px;
+    width: 80px;
+    border-radius: 5%;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.card-top {
+    text-align: left;
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 4px;
+}
+
+.card-middle {
+    height: 60px;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 9px;
+}
+
+.card-bottom {
+    height: 30px;
+    text-align: right;
+    padding-right: 0px;
+    font-size: 30px;
+    padding-top: 10px;
+    transform: rotate(180deg) translateX(-73%) translateY(-95%);
+}
+
+.SecondLabel {
+    margin-top: 20px;
+}
+
+.NewCards {
+    margin-top: 20px;
+    padding-left: 8px;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
